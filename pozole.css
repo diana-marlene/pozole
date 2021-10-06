@@ -131,23 +131,49 @@ nav ul li a{
 .text-img-content{
     display: flex;
     flex-flow: row nowrap;
-    /* align-content: center;
-    justify-content: center; */
+    justify-content: space-around;
+    
+}
+.caja1{
+    margin-left: 70px;
+    width: 50%;
+    padding-top: 20px;
+    align-items: center;
+}
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    height: 400px;
+    width: 400px;
     
 }
 span{
     font-size: 36px;
     font-family: Roboto;
 }
+.parrafo1{
+    font-family: Roboto;
+    font-size: 20px;
+    color:white;
+    text-align: justify;
+}
+
 
 .text-2{
     color: black; 
-    width: 50%;
 }
-.imagen{
-    height: 200px;
-    width: 100px;
 
-    
+.caja2{
+    display: flex;
+    justify-content: center;
+    border-color: #EB5A2C;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    align-items: center;
+    width: 70%;
 }
 
