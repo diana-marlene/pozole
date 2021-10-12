@@ -177,3 +177,136 @@ span{
     width: 70%;
 }
 
+.galeria{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    
+
+}
+
+.content-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    
+
+}
+
+.images{
+    width: 320px;
+    height: 200px;
+}
+
+.self-img{
+    align-self: stretch;
+    width: 520px;
+    height: 600px;
+}
+
+.content-2{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 500px;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 500px;
+}
+.parrafo3{
+    font-family: Roboto;
+    font-size: 50px;
+    color:white;
+    text-align: justify;
+   
+}
+.form-p{
+    background-color: #EB5A2C;
+    /* border:0.05em solid gray; */
+    padding: 60px;
+    background: linear-gradient(#EB5A2c);
+    height: 300px;
+    
+}
+
+.form-p2{
+    background-color: #EB5A2C;
+    padding: 60px;
+    background: linear-gradient(to right,#EB5A2C,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB5A2C;
+    width: 900px;
+}
+#formu{
+    background-color: #E5E5E5;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    /* width: 20%; */
+
+ }
+
+ .etiqueta{
+     color: #EB5A2C;
+     height: 100px;
+ }
+
+ .etiqueta1{
+    color: white;
+    height: 100px;
+    
+}
+
+
+ .btn-radius{
+     border-radius: 20px;
+     width: 400px;
+     background-color: #EB5A2C;
+     border-color: #EB5A2C;
+
+ }
+
+ .btn-radius1{
+    border-radius: 20px;
+    width: 400px;
+    background-color:white;
+    border-color: white;
+}
+.btn-two{
+    justify-content: space-around;
+
+}
+.btn-radius2{
+    border-radius: 20px;
+    width: 180px;
+    background-color: #EB5A2C;
+    border-color: #EB5A2C;
+    
+}  
+
+footer{
+    
+   background-color: #000;
+    text-decoration: none;
+    color: honeydew;
+    font-family: Roboto;
+}
